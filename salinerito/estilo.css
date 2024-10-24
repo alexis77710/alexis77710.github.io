@@ -1,0 +1,103 @@
+/* aplicado para toda la pagina principal del salinerito*/
+@media screen and(wax-width:400px) {
+    html {
+        font-size: 9.4117444444444444px;
+    }
+}
+
+/*Altura*/
+html,
+body {
+    height: 100%;
+}
+body { /*  font-family Explicación: Establece una lista de fuentes, padding controla el espacio entre el contenido del elemento y su borde. */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background-color: #5e2129;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {  /*Controla el ancho máximo que un elemento puede ocupar en la pantalla.*/
+    width: 200%;
+    max-width: 700px;
+    height: auto;
+    margin-top: 15px;
+}
+
+nav {
+    background-color: #000000;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ /*con display: inline;, se especifica que debe comportarse como un elemento en línea.*/
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+section h2 {
+    color: #5a2c21;
+}
+
+footer {
+    background-color: #3e1e14;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+a {
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: #7e262a;
+}
+
+/*focus es brillo*/
+/*active lo activa xd*/
+/*funcion hover*/
+a:hover,
+a:active{
+    outline: 0;
+}
+section img {  /*Controla el ancho máximo que un elemento puede ocupar en la pantalla.*/
+    width: 25%;
+    max-width: 400px;
+    height: auto;
+    margin-top: 15px;
+}
